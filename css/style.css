@@ -35,6 +35,7 @@ hr {
 
 p {
   margin-bottom: 0 !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
 }
 
 header {
@@ -52,7 +53,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
 }
-nav > ul {
+nav ul {
   width: 100%;
   height: 100%;
   display: flex;
@@ -62,25 +63,29 @@ nav > ul {
   align-items: center;
   flex-wrap: wrap;
 }
+nav ul i {
+  margin-right: 0.8rem;
+  font-size: 1.5rem !important;
+}
 
 .nav-item {
   padding: 0.5rem 1rem;
 }
 
 .nav-link {
-  text-decoration: none;
-  color: #616161;
-  font-size: 800;
-  font-size: large;
+  text-decoration: none !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+  color: #616161 !important;
+  font-size: large !important;
 }
 
-.logo > img {
+.logo img {
   width: 200px;
 }
 
 /* Intro */
 .intro {
-  height: 90vh;
+  height: 93vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -89,8 +94,7 @@ nav > ul {
   background: #f7f7f7;
   flex-wrap: wrap;
 }
-
-.intro-presentacion {
+.intro .intro-presentacion {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -99,29 +103,39 @@ nav > ul {
   width: 50%;
   margin: auto;
 }
-
-.intro-presentacion-texto > h1 {
+.intro .intro-presentacion .intro-presentacion-texto h1 {
   font-size: 3rem;
   color: #383838;
   width: 60%;
   text-shadow: 0px 0px 3px #bebebe;
+  font-weight: 700 !important;
 }
-.intro-presentacion-texto > h2 {
-  font-size: 1.5rem;
-  font-weight: lighter;
+.intro .intro-presentacion .intro-presentacion-texto h2 {
+  font-size: 1.8rem;
+  font-weight: 400 !important;
   padding: 1rem 0rem;
   color: #8a8a8a;
   width: 70%;
   word-wrap: break-word;
-  text-justify: left;
+  text-align: left !important;
 }
-.intro-presentacion-texto > p {
+.intro .intro-presentacion .intro-presentacion-texto p {
   font-size: 1rem;
   font-weight: bold;
   color: #898989;
 }
-
-.intro-form {
+.intro .intro-presentacion p {
+  width: 100%;
+}
+.intro .intro-presentacion p a {
+  text-decoration: none !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+  color: #616161 !important;
+  font-size: 1.1rem !important;
+  margin-top: 0 !important;
+  text-align: left;
+}
+.intro .intro-form {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -129,7 +143,7 @@ nav > ul {
   justify-content: space-around;
   width: 40%;
 }
-.intro-form > fieldset {
+.intro .intro-form fieldset {
   height: 90%;
   display: flex;
   flex-direction: column;
@@ -142,7 +156,7 @@ nav > ul {
   box-shadow: 0px 0px 20px 0px silver;
   background-color: white;
 }
-.intro-form > fieldset > form {
+.intro .intro-form fieldset form {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -150,11 +164,11 @@ nav > ul {
   width: 90%;
   padding: 2rem 1rem;
 }
-.intro-form > fieldset > form > h3 {
+.intro .intro-form fieldset form h3 {
   color: #383838;
   font-size: 1.5rem;
 }
-.intro-form > fieldset > form > .entrada {
+.intro .intro-form fieldset form > .entrada {
   width: 85%;
   padding: 0.5rem;
   border: 1px solid #c4c2c2;
@@ -162,15 +176,15 @@ nav > ul {
   font-size: 1rem;
   margin-top: 1rem;
 }
-.intro-form > fieldset > form > .entrada::placeholder {
+.intro .intro-form fieldset form > .entrada::placeholder {
   color: #afafaf;
 }
-.intro-form > fieldset > form > textarea {
+.intro .intro-form fieldset form > textarea {
   resize: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1rem;
 }
-.intro-form > fieldset > form > .submit {
+.intro .intro-form fieldset form .submit {
   width: 50%;
   border: none;
   box-shadow: 0px 0px 10px 0px #bdbbbb;
@@ -183,13 +197,80 @@ nav > ul {
   margin-bottom: 1rem;
   padding: 1.2rem 0rem;
 }
-.intro-form > fieldset > form > .intro-form-escribinos > h3 {
+.intro .intro-form fieldset form .intro-form-escribinos h3 {
   color: #383838;
+  font-size: 1.6rem;
 }
-.intro-form > fieldset > form > .intro-form-escribinos > p {
+.intro .intro-form fieldset form .intro-form-escribinos p {
   color: #909090;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 0.5rem 0rem;
+}
+
+#programas {
+  height: 100vh;
+  width: 100%;
+  margin-top: 2rem;
+}
+#programas .left-programs {
+  width: 55%;
+  margin-right: 3rem;
+}
+#programas .left-programs h2 {
+  margin: 6rem 3rem 1rem 3rem;
+  font-size: 3rem;
+  color: #383838;
+  width: 60%;
+  text-shadow: 0px 0px 3px #bebebe;
+  font-weight: 700 !important;
+}
+#programas .left-programs h3 {
+  margin: 1rem 3rem 3rem 3rem;
+  color: #383838;
+  font-size: 2.5rem;
+  padding: 0.5rem 0rem;
+}
+#programas .left-programs p {
+  color: #909090;
+  font-size: 2rem;
+  padding: 2rem 3rem 3rem 0rem;
+  margin: 1rem 3rem 3rem 3rem;
+}
+#programas .left-programs button {
+  width: 15rem;
+  border: none;
+  box-shadow: 0px 0px 10px 0px #bdbbbb;
+  background-color: #5454d4;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1rem 3rem 3rem 3rem;
+  padding: 1.2rem 0rem;
+}
+#programas .right-programs {
+  width: 45%;
+  margin: 6rem 5rem;
+}
+#programas .right-programs .e {
+  margin-top: 1rem;
+  border: 1px solid #e2dfdf;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 20px 0px silver;
+  min-width: 12rem;
+  min-height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#programas .right-programs .e .inside h4 {
+  color: #818181;
+  text-align: center;
+}
+#programas .right-programs .e .inside p {
+  color: #818181;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

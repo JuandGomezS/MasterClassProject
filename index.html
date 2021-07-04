@@ -5,21 +5,22 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="./css/style.css" />
-		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+		<script src="https://kit.fontawesome.com/fbdfe9d794.js" crossorigin="anonymous"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		<title>MasterClass Exams</title>
 	</head>
 	<body>
 		<!--HEADER-->
         <header>
-            <nav class="navbar navbar-default">
-                <ul class="navbar-nav">
+            <nav class="">
+                <ul class="">
                     <li class="nav-item logo"><img src="./img/LOGO MASTERCLASS.png" alt="">
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#">Programas</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Alumnos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Whatsapp</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="icono fab fa-whatsapp"></i> Whatsapp</a></li>
                 </ul>
             </nav>
         </header>
@@ -27,13 +28,18 @@
 		<div class="intro">
 			<div class="intro-presentacion">
 				<span class="intro-presentacion-texto">
-					<p>Comienza hoy mismo</p>
+					<p >Comienza hoy mismo</p>
 					<h1>El inglés te abre puertas. Sumate!</h1>
 					<h2>
 						Estudia los cursos de Cambridge online desde la comodidad de tu casa y obtén los certificados de
 						exámenes internacionales
 					</h2>
+
 				</span>
+				<p>
+					<a class="" href="#programas"><i class="fas fa-chevron-circle-down"></i> Leer más</a>
+				</p>
+				
 			</div>
 			<div class="intro-form">
 				<fieldset>
@@ -53,53 +59,82 @@
 						<input type="submit" value="Enviar" class="submit" />
 						<span class="intro-form-escribinos">
 							<h3>O escribinos a:</h3>
-							<p>masterclass.exams@gmail.com</p>
-							<p>+51 973 710 607</p>
+							<p><i class="far fa-envelope"></i> masterclass.exams@gmail.com</p>
+							<p> <i class="fas fa-phone-alt"></i> +51 973 710 607</p>
 						</span>
 					</form>
 				</fieldset>
 			</div>
 		</div>
 		<main>
-			<section id="programas">
-				<div>
+			<section id="programas" class="d-flex align-content-center flex-row">
+				<div class="left-programs">
 					<h2>Cursos y preparación a exámenes internacionales</h2>
 					<h3>¿Cuál se ajusta a tu necesidad?</h3>
 					<p>
 						Comienza a estudiar con nosotros y obtén la certificación internacional. Cada curso está
-						enfocado para que lores tu meta con acompañamiento 100% profesional. ¡También hay inglés para
+						enfocado para que logres tu meta con acompañamiento 100% profesional. ¡También hay inglés para
 						empresas!
 					</p>
 					<button type="submit">Quiero aprender Inglés</button>
 				</div>
-				<div>
-					<span>
-						<h4>B1 Preliminary (PET)</h4>
-						<p>*Contar con nivel básico culminado</p>
-					</span>
-					<span>
-						<h4>B2 First (FCE)</h4>
-						<p>*Contar con nivel avanzado en el idioma</p>
-					</span>
-					<span>
-						<h4>C1 Advanced (CAE)</h4>
-						<p>*Contar con la certficación FCE o IELTS 6</p>
-					</span>
-					<span>
-						<h4>C2 Proficiency (CPE)</h4>
-						<p>*Contar con la certificación CAE</p>
-					</span>
-					<span>
-						<h4>IELTS</h4>
-						<p>*Contar con nivel intermedio culminado</p>
-					</span>
-					<span>
-						<h4>TOEFL</h4>
-					</span>
-					<span>
-						<h4>Business English</h4>
-						<p>¡Todos los niveles!</p>
-					</span>
+				<div class="right-programs row">
+					<div class="col-sm-6 ">
+						<div class="e">
+							<div class="inside">
+								<h4>B1 Preliminary (PET)</h4>
+						    	<p>*Contar con nivel básico culminado</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 ">
+						<div class="e">
+							<div class="inside">
+								<h4>B2 First (FCE)</h4>
+							 	<p>*Contar con nivel avanzado en el idioma</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="e">
+							<div class="inside">
+								<h4>C1 Advanced (CAE)</h4>
+								<p>*Contar con la certficación FCE o IELTS 6</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="e">
+							<div class="inside">
+								<h4>C2 Proficiency (CPE)</h4>
+								<p>*Contar con la certificación CAE</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="e">
+							<div class="inside">
+								<h4>IELTS</h4>
+								<p>*Contar con nivel intermedio culminado</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="e">
+							<div class="inside">
+								<h4>TOEFL</h4>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="e">
+							<div class="inside">
+								<h4>Business English</h4>
+								<p>¡Todos los niveles!</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 
@@ -189,6 +224,6 @@
 			</div>
 		</footer>
 
-		<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	</body>
 </html>

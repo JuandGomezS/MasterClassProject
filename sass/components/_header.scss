@@ -11,7 +11,7 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
-	>ul {
+	ul {
 		width: 100%;
 		height: 100%;
 		display: flex;
@@ -20,19 +20,24 @@ nav {
 		justify-content: space-around;
 		align-items: center;
 		flex-wrap: wrap;
+		i{
+			margin-right: 0.8rem;
+			font-size: 1.5rem !important;			
+		}
 	}
+	
 }
 .nav-item {
 	padding: 0.5rem 1rem;
 }
 .nav-link {
-	text-decoration: none;
-	color: rgb(97,97,97);
-	font-size: 800;
-	font-size: large;
+	text-decoration: none !important;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+	color: rgb(97,97,97) !important;
+	font-size: large !important;
 }
 .logo {
-	>img {
+	img {
 		width: 200px;
 	}
 }
